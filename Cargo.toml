@@ -19,3 +19,6 @@ reqwest = { version = "0.12", default-features = false }
 [dev-dependencies]
 tokio = { version = "1", features = ["full", "test-util"] }
 alloy = { version = "1", features = ["full", "node-bindings"] }
+
+[[example]]
+name = "basic_usage"
